@@ -1,0 +1,21 @@
+{
+  "name": "tick-of-clock",
+  "version": "0.1.0",
+  "description": "Timer and stopwatch",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*.spec.js --timeout 5000"
+  },
+  "keywords": [
+    "timer",
+    "stopwatch"
+  ],
+  "author": "Andrii Lazurenko (andrey.lazurenko@gmail.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "mitt": "^1.0.1"
+  }
+}
