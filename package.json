@@ -6,6 +6,10 @@
   "scripts": {
     "test": "mocha tests/*.spec.js --timeout 5000"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alazurenko/tick-of-clock.git"
+  },
   "keywords": [
     "timer",
     "stopwatch"
