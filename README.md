@@ -1,6 +1,8 @@
 # tick-of-clock
 
-### Stopwatch || Countdown ⏰ 
+> Stopwatch || Countdown ⏰
+
+[![build status](https://api.travis-ci.org/alazurenko/tick-of-clock.svg?branch=master)](https://travis-ci.org/alazurenko/tick-of-clock)
 ```js
 const toc = require('tick-of-clock');
 let timer = toc();
@@ -13,9 +15,9 @@ timer.getTime(); // returns amount of ms that have passed
 ```
 
 ### Events
-`start` 
+`start`
 
-`stop` 
+`stop`
 
 `reset`
 
