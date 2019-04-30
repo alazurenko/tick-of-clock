@@ -1,8 +1,14 @@
 # tick-of-clock
 
-> Stopwatch || Countdown ⏰
+> Tiny stopwatch and countdown with events
 
 [![build status](https://api.travis-ci.org/alazurenko/tick-of-clock.svg?branch=master)](https://travis-ci.org/alazurenko/tick-of-clock)
+## Install
+
+`npm i tick-of-clock`
+
+## How to use
+
 ```js
 const toc = require('tick-of-clock');
 let timer = toc();
@@ -15,13 +21,17 @@ timer.getTime(); // returns amount of ms that have passed
 ```
 
 ### Events
-`start`
 
-`stop`
+| Event         | When
+| ------------- |-------------|
+| start         | Timer starts
+| reset         | Timer reseted
+| stop          | Timer has stopped
 
-`reset`
-
-How to use
 ```js
 timer.on('start', () => console.log("Let's Rock!"));
 ```
+
+## License
+
+[MIT](https://opensource.org/licenses/mit-license.php)
